@@ -23,11 +23,28 @@ Project 1 -> Code;
 Code -> README.md;
 Issues -> Labels;
 Issues -> Milestones;
+Milestones -> Project1SubmissionDeadline10August;
+Milestones -> Project2SubmissionDeadline31August;
+Milestones -> Project3SubmissionDeadline21September;
+Milestones -> Project4SubmissionDeadline19October;
+Milestones -> Project5SubmissionDeadline02November;
+Milestones -> Exam(POE)SubmissionNoDeadline;
 Projects -> TabularView;
 Projects -> StatusView;
 Projects -> SprintView;
 Projects -> LinkedAssessmentView;
 Projects -> TabularView;
+Projects -> Backlog
+Projects -> ByPriority;
+TbularView -> PopulateTabularView;
+TabularView -> Repository;
+TabularView -> LinkedPullRequest;
+PopulateTabularView -> Milestones;
+PopulateTabularView -> Labels;
+SprintView -> GroupedBySprint;
+LinkedAssessmentView -> GroupedByLinkedAssessment;
+StatusView -> GroupedByStatus;
+ByPriority -> GroupedByPriority;
 
 
 
