@@ -45,6 +45,16 @@ SprintView -> GroupedBySprint;
 LinkedAssessmentView -> GroupedByLinkedAssessment;
 StatusView -> GroupedByStatus;
 ByPriority -> GroupedByPriority;
+Repository -> Repositories;
+
+## Branching strategy
+-> Github Flow Strategy. It is a lightweight, branch-based workflow. It focuses on Agile principles and so it is a fast and streamlined branching strategy with short production cycles and frequent releases, it also allows for quick feedback loops which makes it easier for one to identify issues and resolve them.
+
+## .gitignore file
+-> the .gitignore file is going to list the names of files that can be found in work-trees when working on the project, but should not be committed to the project(e.g sensitive information about the user)
+
+## Storage of credentials and sensitive information
+-> Credentials will be encrypted and stored in a .gitignore file which will not be committed to github to avoid licks.
 
 
 
